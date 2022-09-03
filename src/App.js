@@ -6,9 +6,8 @@ import ItemListContainer from './components/ItemListContainer';
 
 
 function App() {
-
   return (
-    <body className="background">
+    <body>
     <header>
       <ItemListContainer greeting={"La tienda mas famosa de todas las tiendas!"}/>
     </header>
