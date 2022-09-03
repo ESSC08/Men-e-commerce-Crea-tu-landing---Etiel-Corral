@@ -5,8 +5,12 @@
 }
 
 .imagen {
-  max-width: 25px;
-  max-height: 25px;
+  max-width: 26px;
+  max-height: 26px;
+}
+
+.background {
+  color: ;
 }
 /* .App {
   text-align: center;
