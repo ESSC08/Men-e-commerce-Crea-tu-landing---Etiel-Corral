@@ -1,18 +1,25 @@
 import React from 'react'
 import CartWidget from './CartWidget'
-import ItemListContainer from './ItemListContainer'
+// import ItemListContainer from './ItemListContainer'
 
 const NavBar = () => {
   return (
-    <div>
+    <body>
+    {/* <header>
+      <ItemListContainer greeting={"Agregar aqui nombre de tienda"}/>
+    </header> */}
+
+    <nav>
         <h2>Contenido de lista</h2>
-        <li>Inicio</li>
-        <li>Productos</li>
-        <li>Contacto</li>
-        <li>Acerca de</li>
+        <ul>
+        <li><a href="#" title="Boton" target="_blank"> Inicio </a></li>
+        <li><a href="#" title="Boton" target="_blank"> Productos </a></li>
+        <li><a href="#" title="Boton" target="_blank"> Contacto </a></li>
+        <li><a href="#" title="Boton" target="_blank"> Acerca de </a></li>
+        </ul>
         <CartWidget/>
-        <ItemListContainer greeting={"Agregar aqui nombre de tienda"}/>
-    </div>
+    </nav>
+    </body>
   )
 }
 
